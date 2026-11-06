@@ -31,7 +31,7 @@ To serve it at https://g0kul6.github.io/ instead, name the repository `g0kul6.gi
 
 ## Things to fill in
 
-- **Links:** the Paper, arXiv and Code buttons in `index.html` point to `#`; replace the `href`s when you have them.
+- **Links:** Paper opens `paper.pdf` (replace that file to update the paper). The arXiv button still points to `#`; add its `href` once the paper is on arXiv.
 - **Benchmark clips:** all 25 are in `media/bench/`, encoded with a keyframe every half second so scrubbing stays smooth. To rebuild them from the original `offline_benchmark` videos, run `./make_benchmark_clips.sh /path/to/offline_benchmark`.
 
 ## Preview locally
